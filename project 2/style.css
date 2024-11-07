@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.start{
+    display: flex;
+    padding-bottom: 8px;
+    background-color: white;
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+.funnel{
+    display: flex;
+    margin-left: 200px;
+ 
+}
+
+.funnel img{
+    width: 50px;
+}
+
+.funnel .heading_1{
+    padding-left: 10px;
+}
+
+.funnel .heading_1 h6{
+    color: grey;
+}
+.succes{
+    margin-left: 500px;
+    font-size: 1.2rem;
+    font-weight: 3rem;
+    padding-bottom: 10px;
+}
+
+.succes span{
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.background{
+    background-image: url("images/banner.jpg");
+    height: 23em;
+   
+}
+
+.heading_2{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.heading_2 h1{
+    font-size:4rem;
+    font-weight: 2rem;
+    font-style: italic;
+    color: white;
+    margin-bottom: 20px;
+ 
+}
+
+.heading_2 h1 span{
+    color: yellow;
+}
+
+.heading_2 p{
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.heading_2 p .yellow{
+    color: orange;
+}
+
+.heading_2 p .underline{
+    border-bottom: 2px solid rgb(251, 247, 247);
+}
+
+.form_information{
+    display: flex;
+    padding-bottom:30px;
+    margin: 40px 120px;
+   
+}
+
+.form{
+   
+   width: 50%;
+  background-color: rgb(209, 202, 202);
+   margin: 0px 50px;
+   padding: 15px 30px;
+   border-radius: 6px;
+   box-shadow: rgb(132, 132, 132);
+}
+.form input{
+    width: 96%;
+    margin-top: 20px;
+    padding:  17px 0px;
+    font-weight: .5;
+    font-size: 1rem;
+    padding-left: 20px;
+    border: 1px solid rgb(159, 156, 156);
+   
+}
+.input_1 input:hover{
+    
+    border-color:2px  rgb(97, 226, 226);
+}
+
+h3{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.input_1 h3{
+    font-size: 1.5rem;
+    font-weight: 1rem ;
+    color: rgb(83, 82, 82);
+    border-bottom: 2px dotted rgb(132, 131, 131);
+    margin-top: 20px;
+
+
+}
+
+.item_amount{
+    display: flex;
+    border-bottom: 2px solid rgb(222, 218, 218);
+    padding-bottom: -50px;
+}
+.item{
+    margin-left: 10px;
+    padding-top: 20px;
+}
+.amount{
+    margin-left:400px;
+    padding-top: 20px;
+   
+}
+.dynamic_dollor{
+    display: flex;
+    color: rgb(131, 128, 128);
+}
+.dynamic{
+    margin-left: 10px;
+    padding: 3px;
+}
+
+.dollor{
+    margin-left: 230px;
+    padding: 3px;
+}
+.container{
+    border: 1px solid red;
+    border-radius: 9px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(239, 71, 20, 0.932);
+    color: white;
+}
+
+.container h1{
+    font-size: 1.3rem;
+    font-weight: 2rem;
+    font-style: italic;
+}
+.container h4{
+    font-size: 17px;
+}
+
+.thanks_1{
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 0px 70px;
+    font-size: .8rms;
+    padding-top: -100px;
+    color: rgb(120, 118, 118);
+}
+
+.information{
+    width: 50%;
+}
+
+.image{
+    width: 80%;
+}
+.box h2{
+    border: 1px solid red;
+    background-color: #ff0303fb;
+    width: 90%;
+    text-align: center;
+    padding: 17px 0px;
+    margin-top: 20px;
+}
+
+.points{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 1.4rem;
+    font-weight: 1.5rem;
+}
+
+.points span{
+    font-weight: 10rem;
+    font-size: 1.6rem;
+}
+
+.price{
+    text-align: center;
+}
+
+.price span{
+    font-size: 2.5rem;
+    font-weight: 2rem;
+    text-decoration-line: line-through;
+
+}
+
+.price h1{
+    font-size: 3.4rem;
+    font-weight: 3rem;
+    font-style: italic;
+    color: rgb(216, 173, 18);
+    margin-top: 10px;
+    padding-bottom: 40px;
+    border-bottom: 1px dotted rgb(223, 220, 220);
+}
+
+.loved{
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.loved span{
+    color: red;
+    font-size: 1.8rem;
+    font-weight: 1.5px;
+    font-style: italic;
+}
+
+.loved p{
+    font-size: 1.5rem;
+    font-weight: 1.5rem;
+    margin-top: 15px;
+}
+.last{
+    background-color: rgb(31, 30, 30);
+}
+.end{
+    display: flex;
+    padding-top: 40px;
+  padding-left: 42%;
+    
+   
+}
+.funnel_2 img{
+    width: 40px;
+}
+.heading_3{
+    color: white;
+    padding-left: 10px;
+
+}
+.heading_3 h6{
+    padding-top: 2px;
+    color: rgb(137, 136, 136);
+}
+
+p{
+
+text-align: center;
+padding-top: 20px;
+color: rgb(133, 130, 130);
+font-size: 1.3rem;
+
+
+}
+
+.privacy_condition{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.2rem;
+    color: rgb(108, 104, 104);
+}
+
+.copyright{
+    background-color: rgb(31, 30, 30);
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(108, 104, 104);
+    padding-top: 15px;
+    padding-bottom: 50px;
+
+}

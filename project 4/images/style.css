@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+.html{
+    font-size: 10px;
+}
+
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*
+*::after
+*::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* ###############  utility classes ################ */
+.container{
+    max-width: 100%;
+    width: 80%;
+    margin: 0px auto;
+}
+
+/* ############### styling menu ###################### */
+
+.navbar input[type='checkbox'],
+.navbar .hamburger{
+    display: none;
+}
+
+.navbar{
+    box-shadow: 0px 5px 10px 0px rgb(187, 185, 185);
+    position: fixed;
+    width: 100%;
+    background:white;
+    color: black;
+    opacity: 0.85;
+    z-index: 999;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between;
+    width: 100%;  */
+}
+
+.menu-items{
+    order: 2;
+    width: 100%;
+}
+.menu-items ul{
+    display: flex;
+}
+.menu-items li{
+    list-style: none;
+    margin-left: 1.5em;
+    font-size: 1.3rem;
+}
+.menu-items a{
+    color: rgb(36, 35, 35);
+    text-decoration: none;
+    transition: color .3s ease-in-out;
+}
+.menu-items a:hover{
+    color: rgb(26, 158, 158);
+}
+.logo{
+    order: 1;
+    width: 100%;
+}
+
+/* ################  showcase ################## */
+
+.showcase-area{
+    height: 50vh;
+    background-image: url( project4/images/header-image2.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+
+.showcase-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    height: 100%;
+    /* font-size: 1.6rem; */
+    
+}
+
+
+/* ############### testimonial container  #####################3 */
+
+#testimonial{
+    display: flex;
+}
+
+.testimonial-container{
+    display: flex;
+
+}
+
+.testimonial-box{
+    display: flex;
+}
+.customer-image img{
+    height: 30vh;
+    width: 33%;
+}
